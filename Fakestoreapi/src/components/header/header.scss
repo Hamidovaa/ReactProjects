@@ -1,0 +1,32 @@
+header{
+    &:active{
+        background-color: black;
+        color: white;
+    }
+    ul{
+        list-style: none;
+        display: flex;
+        li{
+            a{
+                text-decoration: none;
+                padding: 18px 15px;
+                display: inline-block;
+                font-weight: bold;
+            }
+            &.btn-theme{
+                border: pink;
+            }
+
+        }
+        
+    }
+    .active{
+        flex-direction: column;
+        text-align: flex-start;
+        li{
+            a{
+                color: black;
+            }
+        }
+    }
+}

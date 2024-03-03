@@ -1,0 +1,13 @@
+div{
+    &.active{
+        background-color: black;
+        color: wheat;
+    }
+    .product-detail{
+        padding-top: 75px;
+        img{
+            object-fit: contain;
+            width: 100%;
+        }
+    }
+}

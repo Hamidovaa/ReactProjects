@@ -1,0 +1,22 @@
+.movie-list{
+    background-color: antiquewhite;
+    position: relative;
+    .search{
+        list-style: none;
+        display: flex;
+      
+        font-size: 20px;
+        font-weight: 500;
+        flex-direction: column;
+        position: absolute;
+        left: 0;
+        z-index: 500;
+        top: 25px;
+        background-color: rgb(72, 66, 59);
+        li{
+            color:white;
+            z-index: 300;
+
+        }
+    }
+}
